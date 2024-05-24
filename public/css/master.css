@@ -1,0 +1,460 @@
+/*
+------
+GERAL
+------
+*/
+main {
+    padding: 20px 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    background-color: #EDEDED;
+}
+
+/*
+-----------------
+NAVBAR
+-----------------
+*/
+.navbar {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    background-color: #010817;
+}
+
+.navbar img {
+    @media (max-width: 768px) {
+        width: 100px;
+    }
+}
+
+.btn-nav {
+    text-decoration: none;
+    color: #000;
+    background-color: #89ffdb;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    /* Added media query for smaller screens */
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+/*
+-----------------
+PROPOSTA INICIAL
+-----------------
+*/
+.bgDark {
+    background-color: #010817;
+}
+
+.colPropostaInicial {
+    padding: 50px;
+    color: #FFFF;
+
+}
+
+.colPropostaInicial h1 {
+    font-size: 45px;
+    color: #FFFF;
+    font-weight: 700;
+
+    @media (max-width: 768px) {
+        font-size: 25px;
+        /* Adjust font size for better readability */
+    }
+}
+
+.colPropostaInicial p {
+    color: #bbbbbb;
+    margin-bottom: 50px;
+
+    @media (max-width: 768px) {
+        font-size: 16px;
+        /* Adjust font size for readability */
+        line-height: 1.5;
+        /* Improve line spacing for mobile reading */
+    }
+}
+
+.colPropostaInicial a {
+    text-decoration: none;
+    color: #000;
+    background-color: #89ffdb;
+    padding: 15px 30px;
+    border-radius: 5px;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+        /* Adjust font size for readability */
+        padding: 10px 20px;
+        /* Reduce padding for smaller buttons */
+    }
+}
+
+.colPropostaInicial img {
+    width: 380px;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+/*
+-----------------
+FEITOS
+-----------------
+*/
+.colFeitos {
+    padding: 50px;
+}
+
+.colFeitos h3 {
+    color: #47967e;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: end;
+
+    @media (max-width: 768px) {
+        font-size: 22px;
+    }
+}
+
+.colFeitos p {
+    line-height: 0;
+    color: #494949;
+    text-align: start;
+
+    @media (max-width: 768px) {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+.colFeitos span {
+    font-size: 12px;
+    line-height: 0;
+}
+
+
+/*
+-----------------
+SERVIÇOS
+-----------------
+*/
+
+.card-servicos {
+    border-radius: 10px;
+    background-color: #010817;
+    width: 350px;
+    padding: 30px;
+
+    @media (max-width: 768px) {
+        margin-bottom: 15px;
+    }
+}
+
+.colCardServico span {
+    font-size: 50px;
+    background-color: #89ffdb;
+    color: #010817;
+    padding: 15px;
+    border-radius: 1em;
+    margin-bottom: 15px;
+
+}
+
+.colCardServico h5 {
+    font-size: 25px;
+    color: #FFFF;
+    font-weight: 700;
+
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
+}
+
+.colCardServico h6 {
+    font-weight: 600;
+    color: #89ffdb;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+}
+
+.colCardServico p {
+    color: #bbbbbb;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+}
+
+.card-link {
+    margin: 30px 0 15px;
+}
+
+.card-link a {
+    text-decoration: none;
+    color: #010817;
+    background-color: #89ffdb;
+    border-radius: 5px;
+    padding: 10px 30px;
+
+    @media (max-width: 768px) {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+.card-text-observacao {
+    font-size: 12px;
+
+    @media (max-width: 768px) {
+        font-size: 12px !important;
+    }
+}
+
+/*
+-----------------
+SOBRE
+-----------------
+*/
+.colSobre {
+    padding-top: 40px;
+}
+
+.colSobre span {
+    font-weight: 800;
+    color: #47967e;
+    font-size: 25px;
+
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
+}
+
+.colSobre h4 {
+    font-size: 25px;
+    font-weight: 700;
+
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
+}
+
+.colSobre p {
+    font-size: 14px;
+
+    @media (max-width: 768px) {
+        font-size: 12px;
+    }
+}
+
+/*
+-----------------
+PORTFÓLIO
+-----------------
+*/
+@media (max-width: 768px) {
+    .portfolioTelaGrande {
+        display: none;
+    }
+
+    .colPortfolio h3 {
+        font-size: 22px;
+    }
+
+    .colPortfolio p {
+        font-size: 12px;
+    }
+
+    .colPortfolio img {
+        width: 350px;
+    }
+}
+
+@media (min-width: 768px) {
+    .portfolioTelaPequena {
+        display: none;
+    }
+}
+
+.colPortfolio {
+    margin: 50px 0;
+}
+
+.colPortfolio h3 {
+    color: #47967e;
+    font-weight: 700;
+    text-align: end;
+}
+
+.colPortfolio a {
+    color: #FFFF;
+    text-decoration: none;
+    background-color: #47967e;
+    border-radius: 5px;
+    padding: 10px 25px;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+        /* Adjust font size for readability */
+        padding: 10px 20px;
+        /* Reduce padding for smaller buttons */
+    }
+}
+
+/*
+-----------------
+VANTAGENS
+-----------------
+*/
+.card-vantagens {
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #010817;
+    padding: 30px;
+
+    @media (max-width: 768px) {
+        margin-bottom: 15px;
+    }
+}
+
+.card-vantagens span {
+    color: #89ffdb;
+    font-size: 50px;
+
+    @media (max-width: 768px) {
+        font-size: 30px;
+    }
+}
+
+.card-vantagens h5 {
+    color: #89ffdb;
+    font-weight: 900;
+
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
+}
+
+.card-vantagens p {
+    padding: 5px 0;
+    color: #bbbbbb;
+    font-size: 14px;
+
+    @media (max-width: 768px) {
+        font-size: 12px;
+    }
+}
+
+/*
+-----------------
+CONTATO
+-----------------
+*/
+.contato {
+    padding: 50px;
+}
+
+.contato h3 {
+    color: #47967e;
+    font-weight: 700;
+    font-size: 30px;
+
+    @media (max-width: 768px) {
+        margin-top: 30px;
+        font-size: 22px;
+    }
+}
+
+.contato li {
+    color: #47967e;
+    text-align: start;
+    font-weight: 600;
+    font-size: 16px;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+}
+
+.contato p {
+    text-align: start;
+    font-size: 16px;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+}
+
+.btn-contato {
+    color: #FFFF;
+    font-weight: 600;
+    background-color: #47967e;
+    border-radius: 5px;
+    padding: 15px;
+    border: 0;
+    width: 100%;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+        /* Adjust font size for readability */
+        padding: 10px 20px;
+        /* Reduce padding for smaller buttons */
+    }
+}
+
+.contato-info {
+    margin: 30px 0 !important;
+}
+
+.contato-info span {
+    font-size: 30px;
+    background-color: #010817;
+    color: #89ffdb;
+    padding: 10px;
+    border-radius: 1em;
+}
+
+.contato-info h6 {
+    margin-top: 10px;
+    font-weight: 800;
+    color: #47967e;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+}
+
+/*
+-----------------
+TECNOLOGIAS
+-----------------
+*/
+.tecnologias{
+    padding: 30px 0;
+}
+.tecnologias img {
+    height: 100px !important;
+}
+
+/*
+-----------------
+FOOTER
+-----------------
+*/
+footer {
+    background-color: #010817 !important;
+}
+
+footer h5 {
+    color: #FFFF;
+}
+
+.text-muted {
+    color: #FFFF !important;
+}
