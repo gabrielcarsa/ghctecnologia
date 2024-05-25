@@ -18,6 +18,9 @@ Route::get('/', function () {
     return view('index');
 });
 
+//ENVIAR EMAIL DE CONTATO
+Route::post('/enviar-email', [ContatoController::class, 'store']);
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -30,7 +33,5 @@ Route::middleware([
     //APENAS REGISTRO DE USUÁRIO SE ESTIVER AUTENTICADO
     Route::get('/register', [RegisteredUserController::class, 'create'])->name('register');
 
-    //ENVIAR EMAIL DE CONTATO
-    Route::post('/enviar-email', [ContatoController::class, 'store']);
 
 });
