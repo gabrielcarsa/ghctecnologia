@@ -42,7 +42,7 @@ NAVBAR
 
 /*
 -----------------
-PROPOSTA INICIAL
+PROPOSTA INICIAL INDEX
 -----------------
 */
 .bgDark {
@@ -55,7 +55,7 @@ PROPOSTA INICIAL
 
 }
 
-.colPropostaInicial h1 {
+.titulo-bg-dark {
     font-size: 45px;
     color: #FFFF;
     font-weight: 700;
@@ -103,7 +103,7 @@ PROPOSTA INICIAL
 
 /*
 -----------------
-FEITOS
+FEITOS INDEX
 -----------------
 */
 .colFeitos {
@@ -140,7 +140,7 @@ FEITOS
 
 /*
 -----------------
-SERVIÇOS
+SERVIÇOS INDEX
 -----------------
 */
 
@@ -219,7 +219,7 @@ SERVIÇOS
 
 /*
 -----------------
-SOBRE
+SOBRE INDEX
 -----------------
 */
 .colSobre {
@@ -255,7 +255,7 @@ SOBRE
 
 /*
 -----------------
-PORTFÓLIO
+PORTFÓLIO INDEX
 -----------------
 */
 @media (max-width: 768px) {
@@ -292,12 +292,14 @@ PORTFÓLIO
     text-align: end;
 }
 
-.colPortfolio a {
+.btn-acao {
     color: #FFFF;
     text-decoration: none;
     background-color: #47967e;
     border-radius: 5px;
     padding: 10px 25px;
+    border: #979797 1px solid;
+
 
     @media (max-width: 768px) {
         font-size: 14px;
@@ -309,7 +311,7 @@ PORTFÓLIO
 
 /*
 -----------------
-VANTAGENS
+VANTAGENS INDEX
 -----------------
 */
 .card-vantagens {
@@ -353,7 +355,7 @@ VANTAGENS
 
 /*
 -----------------
-CONTATO
+CONTATO INDEX
 -----------------
 */
 .contato {
@@ -432,12 +434,13 @@ CONTATO
 
 /*
 -----------------
-TECNOLOGIAS
+TECNOLOGIAS INDEX
 -----------------
 */
-.tecnologias{
+.tecnologias {
     padding: 30px 0;
 }
+
 .tecnologias img {
     height: 100px !important;
 }
@@ -457,4 +460,62 @@ footer h5 {
 
 .text-muted {
     color: #FFFF !important;
+}
+
+
+
+
+
+/*
+-----------------
+CAPA ORÇAMENTO 
+-----------------
+*/
+.orcamento-capa {
+    background-image: linear-gradient(#010817, #01081791), url('https://images.pexels.com/photos/270557/pexels-photo-270557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px;
+}
+
+.orcamento-capa p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFF;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+}
+.card-glass{
+    margin: 0 30px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 30px;
+
+    @media (max-width: 768px) {
+        margin: 5px;
+        padding: 15px;
+    }
+}
+
+
+.btn-acao-secondary {
+    color: #2c2c2c;
+    text-decoration: none;
+    background-color: #FFFF;
+    border: #979797 1px solid;
+    border-radius: 5px;
+    padding: 10px 25px;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+        /* Adjust font size for readability */
+        padding: 10px 20px;
+        /* Reduce padding for smaller buttons */
+    }
 }

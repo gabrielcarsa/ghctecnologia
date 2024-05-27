@@ -7,7 +7,10 @@
     <title>GHC Tecnologia - Desenvolvimento de Apps e Sistemas</title>
 
     <meta name="description"
-        content=" Crie aplicativos mobile e sistemas sob medida para sua empresa pelo melhor preço e com a melhor qualidade. A GHC Tecnologia oferece soluções completas de software para impulsionar o seu negócio. Entre em contato e agende uma reunião!">
+        content="Crie aplicativos mobile e sistemas sob medida para sua empresa pelo melhor preço e com a melhor qualidade. A GHC Tecnologia oferece soluções completas de software para impulsionar o seu negócio. Entre em contato e agende uma reunião!">
+    <meta name="keywords" content="desenvolvimento de aplicativos mobile, desenvolvimento de sistemas, flutter, app, sistema">
+    <meta name="author" content="GHC Tecnologia">
+    <meta name="robots" content="index, follow">
 
     <!--CSS-->
     <link href="{{ asset('css/master.css') }}" rel="stylesheet">
@@ -34,10 +37,10 @@
     <main>
         <!--PROPOSTA INICIAL-->
         <div class="bgDark">
-            <div class="container text-center">
+            <div class="container text-center vh-100 d-flex justify-content-center align-items-center">
                 <div class="row align-items-start colPropostaInicial">
                     <div class="col-sm align-self-center">
-                        <h1>Desenvolvimento de <span style="color: #89ffdb; font-weight: 800;">aplicativos
+                        <h1 class="titulo-bg-dark">Desenvolvimento de <span style="color: #89ffdb; font-weight: 800;">aplicativos
                                 mobile</span>
                             e sistemas</h1>
                         <p>Amplie seu negócio com nossas soluções de software.</p>
@@ -188,7 +191,7 @@
                         de saque e aportes e entre outras funcionalidades. Conta também com um sistema interno para
                         gestão.</p>
                     <div class="d-flex justify-content-end">
-                        <a class="" href="">Ver mais</a>
+                        <a class="btn-acao" href="">Ver mais</a>
                     </div>
                 </div>
                 <div class="col-sm-8 align-self-center">
@@ -207,7 +210,7 @@
                         movimentações
                         e IPTUs.</p>
                     <div class="d-flex justify-content-start">
-                        <a class="" href="">Ver mais</a>
+                        <a class="btn-acao" href="">Ver mais</a>
                     </div>
                 </div>
             </div>
@@ -426,7 +429,7 @@
         </div>
 
     </main>
-    
+
     <!--FOOTER-->
     <x-footer />
 

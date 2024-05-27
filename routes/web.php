@@ -21,6 +21,11 @@ Route::get('/', function () {
 //ENVIAR EMAIL DE CONTATO
 Route::post('/enviar-email', [ContatoController::class, 'store']);
 
+//ORÇAMENTO
+Route::get('/orcamento', function () {
+    return view('site-ghc.orcamento');
+})->name('orcamento');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
