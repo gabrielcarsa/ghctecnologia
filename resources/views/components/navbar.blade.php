@@ -15,7 +15,7 @@
                 </li>
                 <li class="nav-item pe-3">
                     <a class="nav-link {{ Route::currentRouteName() == 'orcamento' ? 'active-navlink' : 'text-light' }}" aria-current="page"
-                        href="{{ route('orcamento') }}">Orçamento e planos</a>
+                        href="{{ route('orcamento') }}">Orçamentos e contratos</a>
                 </li>
                 <li class="nav-item dropdown-center">
                     <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"

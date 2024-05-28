@@ -58,7 +58,7 @@
         <!--FEITOS-->
         <div class="container">
             <div class="row align-items-start colFeitos">
-                <div class="col col align-self-center">
+                <div class="col align-self-center">
                     <h3>Nossos Serviços</h3>
                 </div>
                 <div class="col align-self-center">
@@ -161,13 +161,12 @@
                     <p>reais investidos em projetos de desenvolvimento</p>
                 </div>
             </div>
-
         </div>
 
         <!--FEITOS-->
         <div class="container">
             <div class="row align-items-start colFeitos">
-                <div class="col col align-self-center">
+                <div class="col align-self-center">
                     <h3>Últimos Projetos</h3>
                 </div>
                 <div class="col align-self-center">
@@ -239,6 +238,81 @@
                 </div>
                 <div class="align-self-center">
                     <img src="images/smart-iptu-app.png" alt="SmartIPTU App">
+                </div>
+            </div>
+        </div>
+
+        <!--ORÇAMENTO PRÉVIA-->
+        <div class="container">
+            <div class="row align-items-start colFeitos">
+                <div class="col align-self-center">
+                    <h3>Nossos Contratos</h3>
+                </div>
+                <div class="col align-self-center">
+                    <p>Veja nossos contratos mensais</p>
+                    <p>Pague mensalmente pelo desenvolvimento</p>
+                </div>
+            </div>
+        </div>
+        <!--PLANOS-->
+        <div class="container" id="app-orcamento">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">
+                                <span style="color: #47967e; font-weight: 800;">Aplicativo </span>
+                                - contrato mensal
+                            </h4>
+                        </div>
+                        <div class="card-body">
+                            <p>a partir de</p>
+                            <h5 class="card-title pricing-card-title fs-1">
+                                R$350,00 <small class="text-muted">/mês</small>
+                            </h5>
+                            <div class="mt-4">
+                                <a href="#orcamento" class="btn-acao d-block m-2">Ver orçamento</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">
+                                <span style="color: #47967e; font-weight: 800;">Sistemas </span>
+                                - contrato mensal
+                            </h4>
+                        </div>
+                        <div class="card-body">
+                            <p>a partir de</p>
+                            <h5 class="card-title pricing-card-title fs-1">
+                                R$497,00 <small class="text-muted">/mês</small>
+                            </h5>
+                            <div class="mt-4">
+                                <a href="#orcamento" class="btn-acao d-block m-2">Ver orçamento</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">
+                                <span style="color: #47967e; font-weight: 800;">Sites </span>
+                                - contrato mensal
+                            </h4>
+                        </div>
+                        <div class="card-body">
+                            <p>a partir de</p>
+                            <h5 class="card-title pricing-card-title fs-1">
+                                R$97,00 <small class="text-muted">/mês</small>
+                            </h5>
+                            <div class="mt-4">
+                                <a href="#orcamento" class="btn-acao d-block m-2">Ver orçamento</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
