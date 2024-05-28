@@ -442,6 +442,9 @@ TECNOLOGIAS INDEX
 
 .tecnologias img {
     height: 100px !important;
+    @media (max-width: 768px) {
+        height: 60px !important;
+    }
 }
 
 /*

@@ -91,7 +91,7 @@
                             <p class="card-text">*Login com Google, Apple e email</p>
                             <p class="card-text">*Meios de pagamento no app</p>
                             <div class="card-link">
-                                <a href="/orcamento#app-orcamento" class="card-link">Saiba mais</a>
+                                <a href="/aplicativo-mobile" class="card-link">Saiba mais</a>
                             </div>
                             <p class="card-text-observacao">Acompanhe todo processo de desenvolvimento.</p>
                         </div>
@@ -112,7 +112,7 @@
                             <p class="card-text">Controle de usuários</p>
                             <p class="card-text">Emissão de documentos</p>
                             <div class="card-link">
-                                <a href="/orcamento#sistema-orcamento" class="card-link">Saiba mais</a>
+                                <a href="/sistemas" class="card-link">Saiba mais</a>
                             </div>
                             <p class="card-text-observacao">Acompanhe todo processo de desenvolvimento.</p>
                         </div>
@@ -132,7 +132,7 @@
                             <p class="card-text">Responsivo para todos tipos de telas</p>
                             <p class="card-text">Seu site nas primeiras pesquisas</p>
                             <div class="card-link">
-                                <a href="/orcamento#site-orcamento" class="card-link">Saiba mais</a>
+                                <a href="/sites" class="card-link">Saiba mais</a>
                             </div>
                             <p class="card-text-observacao">Acompanhe todo processo de desenvolvimento.</p>
                         </div>
@@ -271,7 +271,7 @@
                                 R$350,00 <small class="text-muted">/mês</small>
                             </h5>
                             <div class="mt-4">
-                                <a href="#orcamento" class="btn-acao d-block m-2">Ver orçamento</a>
+                                <a href="/orcamento#app-orcamento" class="btn-acao d-block m-2">Ver orçamento</a>
                             </div>
                         </div>
                     </div>
@@ -290,7 +290,7 @@
                                 R$497,00 <small class="text-muted">/mês</small>
                             </h5>
                             <div class="mt-4">
-                                <a href="#orcamento" class="btn-acao d-block m-2">Ver orçamento</a>
+                                <a href="/orcamento#sistema-orcamento" class="btn-acao d-block m-2">Ver orçamento</a>
                             </div>
                         </div>
                     </div>
@@ -309,7 +309,7 @@
                                 R$97,00 <small class="text-muted">/mês</small>
                             </h5>
                             <div class="mt-4">
-                                <a href="#orcamento" class="btn-acao d-block m-2">Ver orçamento</a>
+                                <a href="/orcamento#site-orcamento" class="btn-acao d-block m-2">Ver orçamento</a>
                             </div>
                         </div>
                     </div>
@@ -384,33 +384,35 @@
 
                 </div>
                 <div class="col-sm align-self-center">
-                    <form class="row g-3" action="/enviar-email" method="POST">
-                        @csrf
-                        @method('POST')
-                        <div class="">
-                            <label for="inputNome" class="form-label">Seu nome</label>
-                            <input type="text" required class="form-control" name="nome" id="inputNome"
-                                placeholder="Nome Completo">
-                        </div>
-                        <div class="">
-                            <label for="inputEmail" class="form-label">Email</label>
-                            <input type="email" required class="form-control" name="email" id="inputEmail"
-                                placeholder="exemplo@exemplo.com">
-                        </div>
-                        <div class="">
-                            <label for="inputCelular" class="form-label">Celular</label>
-                            <input type="tel" required class="form-control" name="celular" id="inputCelular"
-                                placeholder="(DDD) 99999-9999">
-                        </div>
-                        <div class="">
-                            <label class="form-label">Mensagem</label>
-                            <textarea class="form-control" name="mensagem"
-                                placeholder="Escreva o que você procura..."></textarea>
-                        </div>
-                        <div class="col-12">
-                            <button type="submit" class="btn-contato">Enviar</button>
-                        </div>
-                    </form>
+                    <div class="card-glass">
+                        <form class="row g-3" action="/enviar-email" method="POST">
+                            @csrf
+                            @method('POST')
+                            <div class="">
+                                <label for="inputNome" class="form-label">Seu nome</label>
+                                <input type="text" required class="form-control" name="nome" id="inputNome"
+                                    placeholder="Nome Completo">
+                            </div>
+                            <div class="">
+                                <label for="inputEmail" class="form-label">Email</label>
+                                <input type="email" required class="form-control" name="email" id="inputEmail"
+                                    placeholder="exemplo@exemplo.com">
+                            </div>
+                            <div class="">
+                                <label for="inputCelular" class="form-label">Celular</label>
+                                <input type="tel" required class="form-control" name="celular" id="inputCelular"
+                                    placeholder="(DDD) 99999-9999">
+                            </div>
+                            <div class="">
+                                <label class="form-label">Mensagem</label>
+                                <textarea class="form-control" name="mensagem"
+                                    placeholder="Escreva o que você procura..."></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn-contato">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -421,30 +423,30 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
-                            <div class="col-md-4 d-flex justify-content-center">
+                            <div class="col d-flex justify-content-center">
                                 <img src="images/file_type_flutter_icon_130599.png" class=""
                                     alt="Desenvolvimento de aplicativo com Flutter">
                             </div>
-                            <div class="col-md-4 d-flex justify-content-center">
+                            <div class="col d-flex justify-content-center">
                                 <img src="images/laravel_logo_icon_170314.png" class=""
                                     alt="Desenvolvimento de sistema com Laravel">
                             </div>
-                            <div class="col-md-4 d-flex justify-content-center">
+                            <div class="col d-flex justify-content-center">
                                 <img src="images/mysql_original_wordmark_logo_icon_146417.png" class="" alt="MySQL">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row">
-                            <div class="col-md-4 d-flex justify-content-center">
+                            <div class="col d-flex justify-content-center">
                                 <img src="images/file_type_php_icon_130266.png" class=""
                                     alt="Desenvolvimento de sistema com PHP">
                             </div>
-                            <div class="col-md-4 d-flex justify-content-center">
+                            <div class="col d-flex justify-content-center">
                                 <img src="images/java_original_wordmark_logo_icon_146459.png" class=""
                                     alt="Desenvolvimento de sistema com JAVA">
                             </div>
-                            <div class="col-md-4 d-flex justify-content-center">
+                            <div class="col d-flex justify-content-center">
                                 <img src="images/postgresql_original_wordmark_logo_icon_146392.png" class=""
                                     alt="PostgreSQL">
                             </div>
@@ -452,14 +454,14 @@
                     </div>
                     <div class="carousel-item">
                         <div class="row">
-                            <div class="col-md-4 d-flex justify-content-center">
+                            <div class="col d-flex justify-content-center">
                                 <img src="images/github_original_wordmark_logo_icon_146506.png" class=""
                                     alt="Controle de versão com Git">
                             </div>
-                            <div class="col-md-4 d-flex justify-content-center">
+                            <div class="col d-flex justify-content-center">
                                 <img src="images/jquery_original_wordmark_logo_icon_146447.png" class="" alt="JQuery">
                             </div>
-                            <div class="col-md-4 d-flex justify-content-center">
+                            <div class="col d-flex justify-content-center">
                                 <img src="images/firebase_logo_icon_168209.png" class="" alt="Firebase">
                             </div>
                         </div>

@@ -7,7 +7,7 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item pe-3">
                     <a class="nav-link {{ Route::currentRouteName() == 'home' ? 'active-navlink' : 'text-light' }}" aria-current="page"
