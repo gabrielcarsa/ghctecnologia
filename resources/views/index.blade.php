@@ -91,7 +91,7 @@
                             <p class="card-text">*Login com Google, Apple e email.</p>
                             <p class="card-text">*Meios de pagamento no app.</p>
                             <div class="card-link">
-                                <a href="https://wa.me/5567981368324?text=Ol%C3%A1%2C+gostaria+de+fazer+um+or%C3%A7amento"
+                                <a href="/orcamento#app-orcamento"
                                     class="card-link">Fazer orçamento</a>
                             </div>
                             <p class="card-text-observacao">Acompanhe todo processo de desenvolvimento.</p>
@@ -113,7 +113,7 @@
                             <p class="card-text">Controle de usuários.</p>
                             <p class="card-text">Emissão de documentos.</p>
                             <div class="card-link">
-                                <a href="https://wa.me/5567981368324?text=Ol%C3%A1%2C+gostaria+de+fazer+um+or%C3%A7amento"
+                                <a href="/orcamento#sistema-orcamento"
                                     class="card-link">Fazer orçamento</a>
                             </div>
                             <p class="card-text-observacao">Acompanhe todo processo de desenvolvimento.</p>
@@ -133,7 +133,7 @@
                             <p class="card-text">Publicação de apps e sistemas.</p>
                             <p class="card-text">Oferecemos suporte e Manuntenção para todos nossos serviços.</p>
                             <div class="card-link">
-                                <a href="https://wa.me/5567981368324?text=Ol%C3%A1%2C+gostaria+de+fazer+um+or%C3%A7amento"
+                                <a href="/orcamento"
                                     class="card-link">Fazer orçamento</a>
                             </div>
                             <p class="card-text-observacao">Não oferecemos suporte ou manuntenção para sistemas de

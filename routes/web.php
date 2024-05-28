@@ -16,7 +16,7 @@ use App\Http\Controllers\ContatoController;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('home');
 
 //ENVIAR EMAIL DE CONTATO
 Route::post('/enviar-email', [ContatoController::class, 'store']);

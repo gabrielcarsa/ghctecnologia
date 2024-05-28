@@ -10,6 +10,38 @@ main {
     background-color: #EDEDED;
 }
 
+.card-glass{
+    margin: 0 30px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 30px;
+
+    @media (max-width: 768px) {
+        margin: 5px;
+        padding: 15px;
+    }
+}
+
+.btn-acao {
+    color: #FFFF;
+    text-decoration: none;
+    background-color: #47967e;
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: #979797 1px solid;
+
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+        /* Adjust font size for readability */
+        padding: 10px 20px;
+        /* Reduce padding for smaller buttons */
+    }
+}
+
 /*
 -----------------
 NAVBAR
@@ -38,6 +70,11 @@ NAVBAR
     @media (max-width: 768px) {
         display: none;
     }
+}
+.active-navlink{
+    background-color: #89ffdb !important;
+    color: #000 !important;
+    border-radius: 5px;
 }
 
 /*
@@ -292,22 +329,6 @@ PORTFÓLIO INDEX
     text-align: end;
 }
 
-.btn-acao {
-    color: #FFFF;
-    text-decoration: none;
-    background-color: #47967e;
-    border-radius: 5px;
-    padding: 10px 25px;
-    border: #979797 1px solid;
-
-
-    @media (max-width: 768px) {
-        font-size: 14px;
-        /* Adjust font size for readability */
-        padding: 10px 20px;
-        /* Reduce padding for smaller buttons */
-    }
-}
 
 /*
 -----------------
@@ -463,7 +484,11 @@ footer h5 {
 }
 
 
-
+/*
+-----------------
+ORÇAMENTO -----------------
+-----------------
+*/
 
 
 /*
@@ -486,20 +511,6 @@ CAPA ORÇAMENTO
 
     @media (max-width: 768px) {
         font-size: 14px;
-    }
-}
-.card-glass{
-    margin: 0 30px;
-    background: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    padding: 30px;
-
-    @media (max-width: 768px) {
-        margin: 5px;
-        padding: 15px;
     }
 }
 

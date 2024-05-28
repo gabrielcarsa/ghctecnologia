@@ -10,7 +10,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item pe-3">
-                    <a class="nav-link active text-light" aria-current="page" href="{{ route('orcamento') }}">Orçamento</a>
+                    <a class="nav-link {{ Route::currentRouteName() == 'home' ? 'active-navlink' : 'text-light' }}" aria-current="page"
+                        href="/">Home</a>
+                </li>
+                <li class="nav-item pe-3">
+                    <a class="nav-link {{ Route::currentRouteName() == 'orcamento' ? 'active-navlink' : 'text-light' }}" aria-current="page"
+                        href="{{ route('orcamento') }}">Orçamento</a>
                 </li>
                 <li class="nav-item dropdown-center">
                     <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"

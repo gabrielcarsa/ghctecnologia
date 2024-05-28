@@ -99,7 +99,7 @@
         </div>
 
         <!--APPS PLANOS-->
-        <div class="container">
+        <div class="container" id="app-orcamento">
             <div class="row">
                 <div class="col text-center">
                     <div class="card mb-4 box-shadow">
@@ -124,7 +124,7 @@
                                 <li class="m-2">Custo de publicação do app a parte</li>
                             </ul>
                             <div class="">
-                                <a href="#orcamento" class="btn-acao d-block m-2">Converse conosco</a>
+                                <a href="#orcamento" class="btn-acao d-block m-2">Fale conosco</a>
                                 <a href="" class="btn-acao-secondary d-block m-2">Saiba mais sobre</a>
                             </div>
                         </div>
@@ -153,7 +153,7 @@
                                 <li class="m-2">Custo de publicação do app incluso</li>
                             </ul>
                             <div class="">
-                                <a href="#orcamento" class="btn-acao d-block m-2">Converse conosco</a>
+                                <a href="#orcamento" class="btn-acao d-block m-2">Fale conosco</a>
                                 <a href="" class="btn-acao-secondary d-block m-2">Saiba mais sobre</a>
                             </div>
                         </div>
@@ -176,7 +176,7 @@
             </div>
         </div>
         <!--SISTEMAS PLANOS-->
-        <div class="container">
+        <div class="container" id="sistema-orcamento">
             <div class="row">
                 <div class="col text-center">
                     <div class="card mb-4 box-shadow">
@@ -201,7 +201,7 @@
                                 <li class="m-2">Dominío e hospedagem inclusos</li>
                             </ul>
                             <div class="">
-                                <a href="#orcamento" class="btn-acao d-block m-2">Converse conosco</a>
+                                <a href="#orcamento" class="btn-acao d-block m-2">Fale conosco</a>
                                 <a href="" class="btn-acao-secondary d-block m-2">Saiba mais sobre</a>
                             </div>
                         </div>
@@ -230,7 +230,7 @@
                                 <li class="m-2">Dominío e hospedagem inclusos</li>
                             </ul>
                             <div class="">
-                                <a href="#orcamento" class="btn-acao d-block m-2">Converse conosco</a>
+                                <a href="#orcamento" class="btn-acao d-block m-2">Fale conosco</a>
                                 <a href="" class="btn-acao-secondary d-block m-2">Saiba mais sobre</a>
                             </div>
                         </div>
