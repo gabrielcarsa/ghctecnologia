@@ -7,9 +7,9 @@
     <title>GHC Tecnologia - Desenvolvimento de Apps e Sistemas</title>
 
     <meta name="description"
-        content="Faça um orçamento para desenvolvimento de um aplicativo mobile ou sistema de software! Pague a partir de R$ 300/mês pelo seu app mobile.">
+        content="Faça um orçamento para desenvolvimento de um aplicativo mobile, sistema de software ou um site! Pague a partir de R$ 300/mês pelo seu app mobile.">
     <meta name="keywords"
-        content="desenvolvimento de aplicativos mobile, desenvolvimento de sistemas, preço, valor, orçamento">
+        content="desenvolvimento de aplicativos mobile, desenvolvimento de sistemas, desenvolvimento de sites, preço, valor, orçamento">
     <meta name="author" content="GHC Tecnologia">
     <meta name="robots" content="index, follow">
 
@@ -42,8 +42,10 @@
             <div class="row w-100 ">
                 <div class="row align-items-center">
                     <div class="col">
-                        <h1 class="text-center titulo-bg-dark mb-5">Orçamento para Desenvolvimento de <span
-                                style="color: #89ffdb; font-weight: 800;">Apps e Sistemas</span>
+                        <h1 class="text-center titulo-bg-dark mb-5">
+                            Orçamento para Desenvolvimento de <span style="color: #89ffdb; font-weight: 800;">
+                                Apps, Sistemas e Sites
+                            </span>
                         </h1>
                         <p class="text-center">Pague a partir <span style="color: #89ffdb; font-weight: 800;">R$
                                 300/mês</span> no
@@ -264,19 +266,15 @@
                         <div class="card-body">
                             <p>a partir de</p>
                             <h5 class="card-title pricing-card-title fs-1">
-                                R$497,00 <small class="text-muted">/mês</small>
+                                R$97,00 <small class="text-muted">/mês</small>
                             </h5>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li class="m-2">Desenvolvimento completo</li>
-                                <li class="m-2">Suporte e manuntenção vitalício*</li>
+                                <li class="m-2">Suporte e hospedagem vitalício*</li>
                                 <li class="m-2">Personalizado do seu jeito</li>
-                                <li class="m-2">
-                                    Reunião cada 15 dias do processo de<br>desenvolvimento via chamada de vídeo
-                                </li>
                                 <li class="m-2">
                                     Sem acesso ao código-fonte ou<br>arquivos ao final do desenvolvimento.
                                 </li>
-                                <li class="m-2">Dominío e hospedagem inclusos</li>
                             </ul>
                             <div class="">
                                 <a href="#orcamento" class="btn-acao d-block m-2">Fale conosco</a>
@@ -293,19 +291,15 @@
                         <div class="card-body">
                             <p>a partir de</p>
                             <h5 class="card-title pricing-card-title fs-1">
-                                R$3.400,00
+                                R$680
                             </h5>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li class="m-2">Desenvolvimento completo</li>
-                                <li class="m-2">9 meses de suporte e manuntenção</li>
+                                <li class="m-2">1 ano de suporte e hospedagem</li>
                                 <li class="m-2">Personalizado do seu jeito</li>
-                                <li class="m-2">
-                                    Reunião semanal do processo de<br>desenvolvimento via chamada de vídeo
-                                </li>
                                 <li class="m-2">
                                     Acesso ao código-fonte e<br>arquivos ao final do desenvolvimento
                                 </li>
-                                <li class="m-2">Dominío e hospedagem inclusos</li>
                             </ul>
                             <div class="">
                                 <a href="#orcamento" class="btn-acao d-block m-2">Fale conosco</a>
