@@ -45,9 +45,11 @@
                         <h1 class="text-center titulo-bg-dark mb-5">Orçamento para Desenvolvimento de <span
                                 style="color: #89ffdb; font-weight: 800;">Apps e Sistemas</span>
                         </h1>
-                        <p class="text-center">Pague a partir <span style="color: #89ffdb; font-weight: 800;">R$ 300/mês</span> no
+                        <p class="text-center">Pague a partir <span style="color: #89ffdb; font-weight: 800;">R$
+                                300/mês</span> no
                             desenvolvimento do seu app mobile.</p>
-                        <p class="text-center">Pague a partir <span style="color: #89ffdb; font-weight: 800;">R$ 500/mês</span> no
+                        <p class="text-center">Pague a partir <span style="color: #89ffdb; font-weight: 800;">R$
+                                500/mês</span> no
                             desenvolvimento do seu sistema personalizado.</p>
                     </div>
                     <div class="col text-light d-flex justify-content-center align-items-center">
@@ -239,7 +241,81 @@
             </div>
         </div>
 
-
+        <!--TITULO SITES PLANOS-->
+        <div class="container">
+            <div class="row align-items-start colFeitos">
+                <div class="col col align-self-center">
+                    <h3>Orçamento de Sites</h3>
+                </div>
+                <div class="col align-self-center">
+                    <p>Maneiras de como você pode fazer</p>
+                    <p>a contratação dos nossos serviços</p>
+                </div>
+            </div>
+        </div>
+        <!--SITES PLANOS-->
+        <div class="container" id="site-orcamento">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Contrato mensal</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>a partir de</p>
+                            <h5 class="card-title pricing-card-title fs-1">
+                                R$497,00 <small class="text-muted">/mês</small>
+                            </h5>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li class="m-2">Desenvolvimento completo</li>
+                                <li class="m-2">Suporte e manuntenção vitalício*</li>
+                                <li class="m-2">Personalizado do seu jeito</li>
+                                <li class="m-2">
+                                    Reunião cada 15 dias do processo de<br>desenvolvimento via chamada de vídeo
+                                </li>
+                                <li class="m-2">
+                                    Sem acesso ao código-fonte ou<br>arquivos ao final do desenvolvimento.
+                                </li>
+                                <li class="m-2">Dominío e hospedagem inclusos</li>
+                            </ul>
+                            <div class="">
+                                <a href="#orcamento" class="btn-acao d-block m-2">Fale conosco</a>
+                                <a href="" class="btn-acao-secondary d-block m-2">Saiba mais sobre</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Contrato fechado</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>a partir de</p>
+                            <h5 class="card-title pricing-card-title fs-1">
+                                R$3.400,00
+                            </h5>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li class="m-2">Desenvolvimento completo</li>
+                                <li class="m-2">9 meses de suporte e manuntenção</li>
+                                <li class="m-2">Personalizado do seu jeito</li>
+                                <li class="m-2">
+                                    Reunião semanal do processo de<br>desenvolvimento via chamada de vídeo
+                                </li>
+                                <li class="m-2">
+                                    Acesso ao código-fonte e<br>arquivos ao final do desenvolvimento
+                                </li>
+                                <li class="m-2">Dominío e hospedagem inclusos</li>
+                            </ul>
+                            <div class="">
+                                <a href="#orcamento" class="btn-acao d-block m-2">Fale conosco</a>
+                                <a href="" class="btn-acao-secondary d-block m-2">Saiba mais sobre</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <!--FOOTER-->

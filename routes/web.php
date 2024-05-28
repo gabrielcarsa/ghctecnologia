@@ -26,6 +26,11 @@ Route::get('/orcamento', function () {
     return view('site-ghc.orcamento');
 })->name('orcamento');
 
+//CONTATO
+Route::get('/contato', function () {
+    return view('site-ghc.orcamento');
+})->name('contato');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

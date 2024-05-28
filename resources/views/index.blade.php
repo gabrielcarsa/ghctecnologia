@@ -8,7 +8,8 @@
 
     <meta name="description"
         content="Crie aplicativos mobile e sistemas sob medida para sua empresa pelo melhor preço e com a melhor qualidade. A GHC Tecnologia oferece soluções completas de software para impulsionar o seu negócio. Entre em contato e agende uma reunião!">
-    <meta name="keywords" content="desenvolvimento de aplicativos mobile, desenvolvimento de sistemas, flutter, app, sistema">
+    <meta name="keywords"
+        content="desenvolvimento de aplicativos mobile, desenvolvimento de sistemas, flutter, app, sistema">
     <meta name="author" content="GHC Tecnologia">
     <meta name="robots" content="index, follow">
 
@@ -40,13 +41,12 @@
             <div class="container text-center vh-100 d-flex justify-content-center align-items-center">
                 <div class="row align-items-start colPropostaInicial">
                     <div class="col-sm align-self-center">
-                        <h1 class="titulo-bg-dark">Desenvolvimento de <span style="color: #89ffdb; font-weight: 800;">aplicativos
+                        <h1 class="titulo-bg-dark">Desenvolvimento de <span
+                                style="color: #89ffdb; font-weight: 800;">aplicativos
                                 mobile</span>
                             e sistemas</h1>
                         <p>Amplie seu negócio com nossas soluções de software.</p>
-                        <a
-                            href="https://wa.me/5567981368324?text=Ol%C3%A1%2C+tenho+interesse+em+um+software.+Gostaria+de+agendar+uma+reuni%C3%A3o">Agende
-                            uma reunião</a>
+                        <a href="/contato">Agende uma reunião</a>
                     </div>
                     <div class="col">
                         <img src="images/imagem-inicial.png" alt="Multiplataformas">
@@ -84,15 +84,14 @@
                             </span>
                             <h5 class="card-title">Aplicativo mobile</h5>
                             <h6>IOS, Android</h6>
-                            <p class="card-text">Solução personalizada.</p>
-                            <p class="card-text">Mais visibilidade para seu negócio.</p>
-                            <p class="card-text">UI/UX.</p>
-                            <p class="card-text">Design inovador e prático.</p>
-                            <p class="card-text">*Login com Google, Apple e email.</p>
-                            <p class="card-text">*Meios de pagamento no app.</p>
+                            <p class="card-text">Solução personalizada</p>
+                            <p class="card-text">Mais visibilidade para seu negócio</p>
+                            <p class="card-text">UI/UX</p>
+                            <p class="card-text">Design inovador e prático</p>
+                            <p class="card-text">*Login com Google, Apple e email</p>
+                            <p class="card-text">*Meios de pagamento no app</p>
                             <div class="card-link">
-                                <a href="/orcamento#app-orcamento"
-                                    class="card-link">Fazer orçamento</a>
+                                <a href="/orcamento#app-orcamento" class="card-link">Saiba mais</a>
                             </div>
                             <p class="card-text-observacao">Acompanhe todo processo de desenvolvimento.</p>
                         </div>
@@ -106,15 +105,14 @@
                             </span>
                             <h5 class="card-title">Sistema</h5>
                             <h6>Web</h6>
-                            <p class="card-text">Solução personalizada.</p>
-                            <p class="card-text">Controle e gestão.</p>
-                            <p class="card-text">Mais eficiência e segurança nas operações.</p>
-                            <p class="card-text">Dashboard e relatórios.</p>
-                            <p class="card-text">Controle de usuários.</p>
-                            <p class="card-text">Emissão de documentos.</p>
+                            <p class="card-text">Solução personalizada</p>
+                            <p class="card-text">Controle e gestão</p>
+                            <p class="card-text">Mais eficiência e segurança nas operações</p>
+                            <p class="card-text">Dashboard e relatórios</p>
+                            <p class="card-text">Controle de usuários</p>
+                            <p class="card-text">Emissão de documentos</p>
                             <div class="card-link">
-                                <a href="/orcamento#sistema-orcamento"
-                                    class="card-link">Fazer orçamento</a>
+                                <a href="/orcamento#sistema-orcamento" class="card-link">Saiba mais</a>
                             </div>
                             <p class="card-text-observacao">Acompanhe todo processo de desenvolvimento.</p>
                         </div>
@@ -124,20 +122,19 @@
                     <div class="card-servicos">
                         <div class="card-body text-center">
                             <span class="material-symbols-outlined">
-                                dns
+                                web
                             </span>
-                            <h5 class="card-title">Infraestrutura e suporte</h5>
-                            <h6>Todos</h6>
-                            <p class="card-text">Banco de dados, servidores, API...</p>
-                            <p class="card-text">Manuntenção.</p>
-                            <p class="card-text">Publicação de apps e sistemas.</p>
-                            <p class="card-text">Oferecemos suporte e Manuntenção para todos nossos serviços.</p>
+                            <h5 class="card-title">Site</h5>
+                            <h6>Web</h6>
+                            <p class="card-text">Solução personalizada</p>
+                            <p class="card-text">Apresentação do seu negócio</p>
+                            <p class="card-text">Páginas de vendas.</p>
+                            <p class="card-text">Responsivo para todos tipos de telas</p>
+                            <p class="card-text">Seu site nas primeiras pesquisas</p>
                             <div class="card-link">
-                                <a href="/orcamento"
-                                    class="card-link">Fazer orçamento</a>
+                                <a href="/orcamento#site-orcamento" class="card-link">Saiba mais</a>
                             </div>
-                            <p class="card-text-observacao">Não oferecemos suporte ou manuntenção para sistemas de
-                                terceiros</p>
+                            <p class="card-text-observacao">Acompanhe todo processo de desenvolvimento.</p>
                         </div>
                     </div>
                 </div>
@@ -304,6 +301,14 @@
         <!--CONTATO-->
         <div class="container contato">
             <div class="row align-items-start">
+                <div class="col align-self-center p-3">
+                    <h3>Vamos conversar?</h3>
+                    <p>Precisa de um aplicativo ou sistema sob medida para impulsionar seu negócio? A GHC Tecnologia
+                        é a
+                        parceira ideal para você! Oferecemos soluções completas de software para atender às suas
+                        necessidades específicas, desde o desenvolvimento até a implantação e suporte.</p>
+
+                </div>
                 <div class="col-sm align-self-center">
                     <form class="row g-3" action="/enviar-email" method="POST">
                         @csrf
@@ -332,34 +337,6 @@
                             <button type="submit" class="btn-contato">Enviar</button>
                         </div>
                     </form>
-                </div>
-                <div class="col align-self-center">
-                    <h3>Vamos conversar?</h3>
-                    <p>Precisa de um aplicativo ou sistema sob medida para impulsionar seu negócio? A GHC Tecnologia
-                        é a
-                        parceira ideal para você! Oferecemos soluções completas de software para atender às suas
-                        necessidades específicas, desde o desenvolvimento até a implantação e suporte.</p>
-                    <div class="row contato-info text-center">
-                        <div class="col-sm-4">
-                            <span class="material-symbols-outlined">
-                                location_on
-                            </span>
-                            <h6>Campo Grande, MS</h6>
-                        </div>
-                        <div class="col-sm-4">
-                            <span class="material-symbols-outlined">
-                                call
-                            </span>
-                            <h6>67 98136-8324</h6>
-                        </div>
-                        <div class="col-sm-4">
-                            <span class="material-symbols-outlined">
-                                email
-                            </span>
-                            <h6>contato@ghctecnologia.com</h6>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
