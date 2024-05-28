@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GHC Tecnologia - Desenvolvimento de Apps e Sistemas</title>
+    <title>GHC Tecnologia | Desenvolvimento de Apps e Sistemas</title>
 
     <meta name="description"
         content="Crie aplicativos mobile e sistemas sob medida para sua empresa pelo melhor preço e com a melhor qualidade. A GHC Tecnologia oferece soluções completas de software para impulsionar o seu negócio. Entre em contato e agende uma reunião!">

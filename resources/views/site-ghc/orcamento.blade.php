@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GHC Tecnologia - Desenvolvimento de Apps e Sistemas</title>
+    <title>GHC Tecnologia | Orçamentos e Contratos</title>
 
     <meta name="description"
         content="Faça um orçamento para desenvolvimento de um aplicativo mobile, sistema de software ou um site! Pague a partir de R$ 300/mês pelo seu app mobile.">

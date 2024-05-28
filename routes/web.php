@@ -28,7 +28,7 @@ Route::get('/orcamento', function () {
 
 //CONTATO
 Route::get('/contato', function () {
-    return view('site-ghc.orcamento');
+    return view('site-ghc.contato');
 })->name('contato');
 
 Route::middleware([

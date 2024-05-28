@@ -10,12 +10,12 @@
         <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item pe-3">
-                    <a class="nav-link {{ Route::currentRouteName() == 'home' ? 'active-navlink' : 'text-light' }}" aria-current="page"
-                        href="/">Home</a>
+                    <a class="nav-link {{ Route::currentRouteName() == 'home' ? 'active-navlink' : 'text-light' }}"
+                        aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item pe-3">
-                    <a class="nav-link {{ Route::currentRouteName() == 'orcamento' ? 'active-navlink' : 'text-light' }}" aria-current="page"
-                        href="{{ route('orcamento') }}">Orçamentos e contratos</a>
+                    <a class="nav-link {{ Route::currentRouteName() == 'orcamento' ? 'active-navlink' : 'text-light' }}"
+                        aria-current="page" href="{{ route('orcamento') }}">Orçamentos e contratos</a>
                 </li>
                 <li class="nav-item dropdown-center">
                     <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
@@ -32,7 +32,8 @@
                     <a class="nav-link text-light" href="#">Cases</a>
                 </li>
                 <li class="nav-item pe-3">
-                    <a class="nav-link text-light" href="#">Contato</a>
+                    <a class="nav-link {{ Route::currentRouteName() == 'contato' ? 'active-navlink' : 'text-light' }}"
+                        aria-current="page" href="{{ route('contato') }}">Contato</a>
                 </li>
                 <li class="nav-item pe-3">
                     <a class="nav-link text-light" href="#">Blog</a>

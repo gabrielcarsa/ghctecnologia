@@ -1,6 +1,6 @@
 /*
 ------
-GERAL
+GERAL ----------
 ------
 */
 main {
@@ -10,7 +10,7 @@ main {
     background-color: #EDEDED;
 }
 
-.card-glass{
+.card-glass {
     margin: 0 30px;
     background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(4px);
@@ -44,7 +44,7 @@ main {
 
 /*
 -----------------
-NAVBAR
+NAVBAR ---------------
 -----------------
 */
 .navbar {
@@ -71,11 +71,34 @@ NAVBAR
         display: none;
     }
 }
-.active-navlink{
-    background-color: #89ffdb !important;
-    color: #000 !important;
-    border-radius: 5px;
+
+.active-navlink {
+    color: #89ffdb !important;
+    font-weight: 900 !important;
 }
+
+/*
+------
+------------ FOOTER ----------
+------
+*/
+footer {
+    background-color: #010817 !important;
+}
+
+footer h5 {
+    color: #FFFF;
+}
+
+.text-muted {
+    color: #FFFF !important;
+}
+
+/*
+------
+------------ HOME ----------
+------
+*/
 
 /*
 -----------------
@@ -442,35 +465,18 @@ TECNOLOGIAS INDEX
 
 .tecnologias img {
     height: 100px !important;
+
     @media (max-width: 768px) {
         height: 60px !important;
     }
 }
 
-/*
------------------
-FOOTER
------------------
-*/
-footer {
-    background-color: #010817 !important;
-}
-
-footer h5 {
-    color: #FFFF;
-}
-
-.text-muted {
-    color: #FFFF !important;
-}
-
 
 /*
------------------
-ORÇAMENTO -----------------
------------------
+------
+------------ ORÇAMENTO ----------
+------
 */
-
 
 /*
 -----------------
@@ -509,5 +515,21 @@ CAPA ORÇAMENTO
         /* Adjust font size for readability */
         padding: 10px 20px;
         /* Reduce padding for smaller buttons */
+    }
+}
+
+
+.contato-capa {
+    background-color: #010817;
+    height: 100vh;
+
+    @media (max-width: 768px) {
+        height: 100%;
+        padding: 100px 20px;
+    }
+}
+.contato-capa img{
+    @media (max-width: 768px) {
+        display: none;
     }
 }
