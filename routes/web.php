@@ -46,6 +46,11 @@ Route::get('/contato', function () {
     return view('site-ghc.contato');
 })->name('contato');
 
+//DURIZI INVESTIMENTOS
+Route::get('durizi-investimentos/politica-privacidade', function () {
+    return view('site-ghc.durizi.politica-privacidade');
+});
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
