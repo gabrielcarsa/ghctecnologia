@@ -26,6 +26,21 @@ Route::get('/orcamento', function () {
     return view('site-ghc.orcamento');
 })->name('orcamento');
 
+//APP MOBILE
+Route::get('/aplicativo-mobile', function () {
+    return view('site-ghc.aplicativo-mobile');
+})->name('aplicativo-mobile');
+
+//SISTEMAS
+Route::get('/sistemas', function () {
+    return view('site-ghc.sistemas');
+})->name('sistemas');
+
+//SITES
+Route::get('/sites', function () {
+    return view('site-ghc.sites');
+})->name('sites');
+
 //CONTATO
 Route::get('/contato', function () {
     return view('site-ghc.contato');

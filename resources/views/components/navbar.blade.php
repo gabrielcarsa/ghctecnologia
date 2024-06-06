@@ -18,14 +18,15 @@
                         aria-current="page" href="{{ route('orcamento') }}">Orçamentos e contratos</a>
                 </li>
                 <li class="nav-item dropdown-center">
-                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                    <a class="nav-link dropdown-toggle {{ (Route::currentRouteName() == 'aplicativo-mobile' || Route::currentRouteName() == 'sistemas' || Route::currentRouteName() == 'sites') ? 'active-navlink' : 'text-light' }}"
+                        href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Serviços
                     </a>
                     <ul class="dropdown-menu dropdown-menu-lg-end">
-                        <li><a class="dropdown-item" href="#">Desenvolvimento de aplicativos mobile</a></li>
-                        <li><a class="dropdown-item" href="#">Desenvolvimento de sistemas</a></li>
-                        <li><a class="dropdown-item" href="#">Desenvolvimento de sites</a></li>
+                        <li><a class="dropdown-item" href="/aplicativo-mobile">Desenvolvimento de aplicativos mobile</a>
+                        </li>
+                        <li><a class="dropdown-item" href="/sistemas">Desenvolvimento de sistemas</a></li>
+                        <li><a class="dropdown-item" href="/sites">Desenvolvimento de sites</a></li>
                     </ul>
                 </li>
                 <li class="nav-item pe-3">
